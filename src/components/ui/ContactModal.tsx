@@ -55,10 +55,10 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
             </div>
 
             <h3 className="text-2xl sm:text-3xl font-black uppercase tracking-tight text-white mb-1">
-              Phạm Văn Tú
+              Pham Van Tu
             </h3>
             <p className="text-xs uppercase tracking-wider text-purple-400 font-medium mb-3">
-              Sinh viên CNTT &bull; Định hướng Khoa học máy tính
+              IT Student &bull; Computer Science Focus
             </p>
 
             <p className="text-xs sm:text-sm text-[#D7E2EA]/75 italic leading-relaxed mb-4 bg-white/[0.03] p-3 rounded-2xl border border-white/5">
@@ -133,7 +133,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
 
             {/* Direct message button */}
             <a
-              href={`mailto:${email}?subject=Hello%20Ph%E1%BA%A1m%20V%C4%83n%20T%C3%BA%20-%20Portfolio%20Inquiry`}
+              href={`mailto:${email}?subject=Hello%20Pham%20Van%20Tu%20-%20Portfolio%20Inquiry`}
               className="w-full flex items-center justify-center gap-2 py-3.5 rounded-full text-white font-medium uppercase tracking-widest text-sm transition-all duration-300 hover:scale-[1.02] active:scale-[0.98]"
               style={{
                 background: 'linear-gradient(123deg, #18011F 7%, #B600A8 37%, #7621B0 72%, #BE4C00 100%)',
@@ -143,7 +143,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
               }}
             >
               <Mail className="w-4 h-4" />
-              <span>Gửi Email Ngay</span>
+              <span>Send an Email</span>
             </a>
           </motion.div>
         </div>

@@ -9,7 +9,7 @@ interface AboutSectionProps {
 
 export default function AboutSection({ onOpenContact }: AboutSectionProps) {
   const aboutText =
-    "Tôi là một người khá đơn giản, thích tìm hiểu những điều mới và đam mê Khoa học máy tính. Với tinh thần kiên trì và ham học hỏi, tôi từng bước xây dựng nền tảng lập trình, làm chủ công nghệ và ứng dụng AI để phát triển bản thân mỗi ngày.";
+    "I'm a down-to-earth person who enjoys discovering new things and is passionate about Computer Science. With curiosity and persistence, I'm building a strong foundation in programming, learning to use technology confidently, and applying AI to grow every day.";
 
   return (
     <section
@@ -86,9 +86,9 @@ export default function AboutSection({ onOpenContact }: AboutSectionProps) {
           />
         </div>
 
-        {/* Detail Bento Cards: Về cá nhân & Về học tập */}
+        {/* Detail Bento Cards: Personal Life & Education */}
         <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6 mt-12 sm:mt-16 text-left">
-          {/* Card 1: Về Cá Nhân */}
+          {/* Card 1: Personal Life */}
           <FadeIn delay={0.3} y={30} className="w-full">
             <div className="h-full rounded-[32px] sm:rounded-[40px] bg-white/[0.03] border border-white/10 hover:border-white/20 p-6 sm:p-8 backdrop-blur-md transition-all duration-300 hover:-translate-y-1">
               <div className="flex items-center gap-3 mb-5">
@@ -97,9 +97,9 @@ export default function AboutSection({ onOpenContact }: AboutSectionProps) {
                 </div>
                 <div>
                   <h3 className="text-xl sm:text-2xl font-black uppercase tracking-tight text-white">
-                    Về Cá Nhân
+                    Personal Life
                   </h3>
-                  <p className="text-xs uppercase tracking-wider text-white/50">Phạm Văn Tú</p>
+                  <p className="text-xs uppercase tracking-wider text-white/50">Pham Van Tu</p>
                 </div>
               </div>
 
@@ -107,35 +107,35 @@ export default function AboutSection({ onOpenContact }: AboutSectionProps) {
                 <div className="flex items-start gap-3">
                   <Sparkles className="w-4 h-4 text-purple-400 shrink-0 mt-1" />
                   <p>
-                    Tôi là một người khá <span className="text-white font-medium">đơn giản</span>, luôn thích tìm tòi và khám phá những điều mới mẻ.
+                    I'm a <span className="text-white font-medium">down-to-earth person</span> who enjoys exploring and discovering new things.
                   </p>
                 </div>
 
                 <div className="flex items-start gap-3">
                   <Headphones className="w-4 h-4 text-pink-400 shrink-0 mt-1" />
                   <p>
-                    Khi có thời gian rảnh, tôi thích <span className="text-white font-medium">nghe nhạc</span> và giải trí để thư giãn, tái tạo năng lượng tích cực.
+                    In my free time, I enjoy <span className="text-white font-medium">listening to music</span> and relaxing to recharge.
                   </p>
                 </div>
 
                 <div className="flex items-start gap-3">
                   <Target className="w-4 h-4 text-indigo-400 shrink-0 mt-1" />
                   <p>
-                    Tôi chú trọng <span className="text-white font-medium">phát triển bản thân</span> và duy trì sự cân bằng lành mạnh giữa học tập và cuộc sống cá nhân.
+                    I focus on <span className="text-white font-medium">personal growth</span> and maintaining a healthy balance between my studies and personal life.
                   </p>
                 </div>
 
                 <div className="flex items-start gap-3">
                   <ShieldCheck className="w-4 h-4 text-emerald-400 shrink-0 mt-1" />
                   <p>
-                    Tinh thần <span className="text-white font-medium">kiên trì &amp; học hỏi</span>: Không đặt áp lực phải giỏi ngay lập tức mà luôn tích lũy kiến thức và kinh nghiệm bền bỉ theo thời gian.
+                    I value <span className="text-white font-medium">persistence &amp; learning</span>, building knowledge and experience steadily without expecting to master everything right away.
                   </p>
                 </div>
               </div>
             </div>
           </FadeIn>
 
-          {/* Card 2: Về Học Tập */}
+          {/* Card 2: Education */}
           <FadeIn delay={0.4} y={30} className="w-full">
             <div className="h-full rounded-[32px] sm:rounded-[40px] bg-white/[0.03] border border-white/10 hover:border-white/20 p-6 sm:p-8 backdrop-blur-md transition-all duration-300 hover:-translate-y-1">
               <div className="flex items-center gap-3 mb-5">
@@ -144,7 +144,7 @@ export default function AboutSection({ onOpenContact }: AboutSectionProps) {
                 </div>
                 <div>
                   <h3 className="text-xl sm:text-2xl font-black uppercase tracking-tight text-white">
-                    Về Học Tập
+                    Education
                   </h3>
                 </div>
               </div>
@@ -153,27 +153,27 @@ export default function AboutSection({ onOpenContact }: AboutSectionProps) {
                 <div className="flex items-start gap-3">
                   <Code2 className="w-4 h-4 text-blue-400 shrink-0 mt-1" />
                   <p>
-                    Quan tâm chuyên sâu: <span className="text-white font-medium">Lập trình, Java, AI</span> và các xu hướng công nghệ tiên tiến.
+                    I'm interested in <span className="text-white font-medium">programming, Java, and AI</span>, along with emerging technology trends.
                   </p>
                 </div>
 
                 <div className="flex items-start gap-3">
                   <Brain className="w-4 h-4 text-purple-400 shrink-0 mt-1" />
                   <p>
-                    Tập trung xây dựng nền tảng tư duy vững chắc và phương pháp <span className="text-white font-medium">giải quyết vấn đề (problem-solving)</span> bài bản.
+                    I focus on developing strong analytical thinking and a structured approach to <span className="text-white font-medium">problem-solving</span>.
                   </p>
                 </div>
 
                 <div className="flex items-start gap-3">
                   <Target className="w-4 h-4 text-emerald-400 shrink-0 mt-1" />
                   <p>
-                    Thích học thông qua <span className="text-white font-medium">thực hành</span>, giải bài tập và trực tiếp triển khai các dự án thực tế.
+                    I enjoy <span className="text-white font-medium">learning by doing</span>, solving exercises, and building practical projects.
                   </p>
                 </div>
 
                 <div className="p-3.5 rounded-2xl bg-white/[0.04] border border-white/10 text-xs sm:text-sm text-white/90">
-                  <span className="text-pink-400 font-medium uppercase tracking-wider block mb-1">Triết lý học &amp; làm:</span>
-                  &ldquo;Sử dụng AI như một công cụ hỗ trợ thông minh, nhưng luôn ưu tiên tự suy nghĩ, tự viết code và tự thấu hiểu bản chất vấn đề.&rdquo;
+                  <span className="text-pink-400 font-medium uppercase tracking-wider block mb-1">How I Learn &amp; Work:</span>
+                  &ldquo;I use AI as a helpful tool while prioritizing independent thinking, writing my own code, and understanding the fundamentals.&rdquo;
                 </div>
               </div>
             </div>

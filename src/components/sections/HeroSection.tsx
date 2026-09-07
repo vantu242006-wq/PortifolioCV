@@ -33,7 +33,7 @@ export default function HeroSection({ onOpenContact }: HeroSectionProps) {
 
               <img
                 src={tuPortrait}
-                alt="Phạm Văn Tú"
+                alt="Pham Van Tu"
                 className="relative w-[260px] sm:w-[320px] md:w-[380px] lg:w-[440px] max-h-[66vh] sm:max-h-[74vh] object-cover rounded-[32px] sm:rounded-[40px] border border-white/20 shadow-[0_25px_60px_rgba(0,0,0,0.9)] select-none pointer-events-none"
                 draggable={false}
                 loading="eager"

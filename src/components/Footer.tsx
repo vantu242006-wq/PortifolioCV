@@ -17,13 +17,13 @@ export default function Footer({ onOpenContact }: FooterProps) {
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8 pb-10 border-b border-white/10">
           <div className="max-w-md">
             <h3 className="hero-heading text-3xl sm:text-4xl font-black uppercase tracking-tight mb-2">
-              Phạm Văn Tú
+              Pham Van Tu
             </h3>
             <p className="text-xs uppercase tracking-wider text-purple-400 font-medium mb-2">
-              Sinh viên CNTT &bull; Định hướng Khoa học máy tính
+              IT Student &bull; Computer Science Focus
             </p>
             <p className="text-white/70 text-sm sm:text-base leading-relaxed font-light">
-              &ldquo;Tôi là một người khá đơn giản, thích tìm hiểu những điều mới, kiên trì học hỏi và tiến bộ từng bước trên hành trình công nghệ.&rdquo;
+              &ldquo;I'm a down-to-earth person who enjoys discovering new things, learning consistently, and making steady progress on my journey in technology.&rdquo;
             </p>
           </div>
 
@@ -61,7 +61,7 @@ export default function Footer({ onOpenContact }: FooterProps) {
           </div>
 
           <div className="flex items-center gap-1.5">
-            <span>&copy; {new Date().getFullYear()} Phạm Văn Tú. Crafted with</span>
+            <span>&copy; {new Date().getFullYear()} Pham Van Tu. Crafted with</span>
             <Heart className="w-3.5 h-3.5 text-pink-500 fill-pink-500 inline" />
             <span>&amp; passion for code &amp; continuous learning.</span>
           </div>
